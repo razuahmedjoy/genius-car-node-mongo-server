@@ -82,6 +82,10 @@ async function run() {
 
     // SERVICES API
 
+    app.get('/test', async (req, res) => {
+      res.send("Running well after db connection")
+    })
+
     // get all services
     app.get('/service', async (req, res) => {
 
@@ -177,6 +181,8 @@ async function run() {
 
   }
   finally {
+
+    console.log("Sometgin wrong")
 
   }
 
