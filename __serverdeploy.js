@@ -20,5 +20,14 @@
  * make sure you whitelisted you ip from mongodb atlas
  * 
  * UPDATE SERVER.................
+ * git add . git commit and git push
+ * git push heroku main
+ * 
+ * 
+ * Configure CLient side
+ * 
+ * 1> Replace localhost by hroku link
+ * 2> npm run build
+ * 3> firebase deploy
  * 
  */
